@@ -1,0 +1,242 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.content1
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color:hsl(190.59deg 89.47% 96.27%) ;
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    margin: 55px;
+    position: relative;
+    left: -85%
+}
+.logo img
+{
+    width: 200px;
+}
+.button1
+{
+    position: relative;
+    left: 75%;
+    width: 200px;
+    height: 50px;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    box-shadow: 1px 1px 7px #c5c5c5;
+}
+.cont1
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 40px 0px;
+}
+.first
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 55px;
+}
+.title1
+{
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-top: -100px;
+    color: #02242c;
+    padding-bottom: 20px;
+
+}
+.image1 img
+{
+    width: 685px;
+    height: 470px;
+}
+.first p
+{
+    color: #02242c;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 35px;
+    line-height: 25px
+}
+.button2
+{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background-color: hsl(322, 100%, 66%);
+    padding-top: 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.image1
+{
+    margin-left: 70px;
+}
+.cards
+{
+    margin: 120px 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.card
+{
+    display: flex;
+    align-items: center;
+  box-shadow:2px 1px 20px 0px #f1eded;
+  justify-content: space-between;
+  padding: 35px;
+}
+.card img
+{
+    width: 450px;
+}
+.title2
+{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 100px;
+    color: #02242c;
+
+}
+.card p
+{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 100px;
+    color: hsl(208, 11%, 55%);
+}
+.c-2
+{
+    flex-direction: row-reverse;
+}
+.container
+{
+    position: relative;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #00252e;
+}
+.container button
+{
+    background-color: #00252e;
+    border: 1px white solid;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+.container button svg
+{
+    fill :white;
+    width: 18px;
+    height: 32px;
+}
+.footer
+{
+    margin-top: 250px;
+    padding: 200px 100px 50px;
+    background-color: hsl(192, 100%, 9%);
+}
+.logo4
+{
+    padding-bottom: 30px;
+}
+.cont3
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.list
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    margin-right: 190px;
+
+}
+.list div
+{
+    margin-bottom: 25px;
+}
+.list span
+{
+    margin-bottom: 25px;
+}
+.logo6
+{
+    position: relative;
+    top: 5px;
+    left: -20px;
+}
+.copy
+{
+    color: white;
+    position: relative;
+    left: 80%;
+    bottom: 20px
+}
+.last
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px -7px 12px 0px #f1eded;
+    position: relative;
+    left: 24%;
+    top: -700px;
+    border-radius: 15px;
+}
+.title4
+{
+    font-size: 35px;
+    font-weight: 600;
+    color: #02242c;
+    margin-top: 70px
+}
+.button5
+{
+    width: 350px;
+    height: 70px;
+    text-align: center;
+    background-color: hsl(322, 100%, 66%);
+    padding-top: 25px;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+body
+{
+    height: 100vh;
+}
